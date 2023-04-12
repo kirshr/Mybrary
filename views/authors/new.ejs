@@ -1,0 +1,8 @@
+New Authors
+<h2>New Author</h2>
+<form action="/authors" method="POST">
+  <!-- The reason we are using an anchor tag is because <a> tags are used to link things while buttons are used to interact with forms and other objects -->
+  <%- include("./_form_fields.ejs") %>
+  <a href="/authors">Cancel</a>
+  <button type="submit">Create</button>
+</form>
